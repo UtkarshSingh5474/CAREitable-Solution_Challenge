@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable-v24/add_photos_ic.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable-v24/background_gradient.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable-v24/delete_ic.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable-v24/ic_locationSmall.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/add_media_shape_bg.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/bg_gradient.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/circle_button.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/curve_toolbar.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/dashed_underline.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_bookdonate.xml" value="0.111" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_call.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_close.xml" value="0.1965" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_clothesdonate.xml" value="0.1965" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_delete.xml" value="0.1965" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_description.xml" value="0.1965" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_donationtoolbar.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_donatios.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_electronicdonate.xml" value="0.111" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_fooddonate.xml" value="0.111" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_illustration_login.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_image.xml" value="0.112" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_location.xml" value="0.1945" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_locationbig.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_loginregister.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_logoonly.xml" value="0.1945" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_logowithoutline.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_medicinedonate.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_profilepic.xml" value="0.1945" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_stationarydonate.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_title.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_toolbardonations.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_toydonate.xml" value="0.111" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_user.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/ic_user_shield.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/profilecv.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/progress_background.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/round_adlist.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/rounded_btn_post.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/rounded_top_corners_bottomsheet.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/spinner_layout.xml" value="0.1315" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/drawable/splash_background.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/font/comfortaa.xml" value="0.234375" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout-w936dp/activity_property_posted.xml" value="0.153125" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout-w936dp/image_list_layout.xml" value="0.2996941896024465" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout-w936dp/photos_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_ad_posted.xml" value="0.2" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_create_donation.xml" value="0.2" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_donation_ad_view.xml" value="0.25" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_email_password.xml" value="0.16" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_firebase_ui.xml" value="0.1" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_image_list.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_property_posted.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/activity_upload_photo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/ads_list_layout.xml" value="0.25" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/ads_list_object.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/bottom_sheet_location_change.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/fragment_account.xml" value="0.2" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/fragment_ad_details.xml" value="0.22" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/fragment_ad_photos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/fragment_ad_user_info.xml" value="0.25" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/fragment_charity.xml" value="0.18" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/fragment_donations.xml" value="0.22" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/fragment_location_change_bottom_sheet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/image_list_layout.xml" value="0.18" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/layout_bottom_sheet_location_change.xml" value="0.22" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/photos_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/spinner_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/layout/spinneritem.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/menu/bottom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Android/Android_Projects/CAREitable/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.133" />
+        <entry key="..\:/Android/Android_Projects/HackBMU-5.0-Team-SUS/app/src/main/res/layout/fragment_ad_photos.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android/Android_Projects/HackBMU-5.0-Team-SUS/app/src/main/res/layout/fragment_donations.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android/Android_Projects/HackBMU-5.0-Team-SUS/app/src/main/res/layout/layout_bottom_sheet_location_change.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android/Android_Projects/HackBMU-5.0-Team-SUS/app/src/main/res/layout/photos_list_layout.xml" value="0.11666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

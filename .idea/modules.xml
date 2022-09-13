@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CAREitable.iml" filepath="$PROJECT_DIR$/.idea/CAREitable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CAREitable.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CAREitable.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CAREitable.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CAREitable.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CAREitable.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CAREitable.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CAREitable.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CAREitable.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
