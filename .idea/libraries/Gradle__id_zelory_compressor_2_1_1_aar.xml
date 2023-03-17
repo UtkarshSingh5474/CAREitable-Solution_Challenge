@@ -2,7 +2,6 @@
   <library name="Gradle: id.zelory:compressor:2.1.1@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/af9234d6a537f152162ea5c7ba74ccd8/transformed/jetified-compressor-2.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af9234d6a537f152162ea5c7ba74ccd8/transformed/jetified-compressor-2.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af9234d6a537f152162ea5c7ba74ccd8/transformed/jetified-compressor-2.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />

@@ -62,8 +62,8 @@ public class DonationsFragment extends Fragment implements LocationListener {
     public static ArrayList<String> donationAdListPosition;
     LocationManager locationManager;
     Spinner stateSpinner, citySpinner;
-    String cityName;
-    String stateName;
+    String cityName="";
+    String stateName="";
     String spinnerCity;
     String spinnerState;
     Dialog dialog;
@@ -224,6 +224,13 @@ public class DonationsFragment extends Fragment implements LocationListener {
 
                 int parentID = parent.getId();
                 if (parentID == R.id.stateSpinner) {
+                    if(stateName==null){
+                        stateName = spinnerState;
+                    }
+                    else if (!stateName.equals(spinnerState)) {
+                        stateName = spinnerState;
+                        cityName = null;
+                    }
                     switch (stateName) {
                         case "Select State":
                             cityAdapter = ArrayAdapter.createFromResource(parent.getContext(),
@@ -390,6 +397,7 @@ public class DonationsFragment extends Fragment implements LocationListener {
                     citySpinner.setAdapter(cityAdapter);
                     citySpinner.setSelection(cityAdapter.getPosition(cityName));
 
+
                 }
                 cityAdapter.notifyDataSetChanged();
             }
@@ -405,6 +413,7 @@ public class DonationsFragment extends Fragment implements LocationListener {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 spinnerCity = citySpinner.getSelectedItem().toString();
+                cityName = spinnerCity;
             }
 
 
@@ -528,6 +537,10 @@ public class DonationsFragment extends Fragment implements LocationListener {
             Geocoder geocoder = new Geocoder(getContext(), Locale.getDefault());
             List<Address> addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
 
+            if(addresses.get(0).getCountryName()!="India"){
+                Toast.makeText(getContext(), "Only Indian Regions Allowed at This time", Toast.LENGTH_SHORT).show();
+                return;
+            }
             cityName = addresses.get(0).getLocality();
             stateName = addresses.get(0).getAdminArea();
 
