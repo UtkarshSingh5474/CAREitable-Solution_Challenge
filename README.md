@@ -11,7 +11,7 @@ CAREitable is an Android app that makes it super easy for you to make cash & non
 - Smart Categories that will give more personalized fields to be filled by the donor according to the category. For example, for food items, fields like expiry date, type. Size and gender for clothes, etc.(Still In Development)
 
 ## Demonstration
-- Check out our [Demonstration Video](https://youtu.be/B_6RAtDOm4U) to see how CAREitable works.
+- Check out our [Demonstration Video](https://youtu.be/8QsPnnlwyS4) to see how CAREitable works.
 
 ## Installation
 - To install the app, download the [APK File](https://github.com/UtkarshSingh5474/CAREitable-Solution_Challenge/blob/1.1/app-debug.apk) and install it on your Android device.
