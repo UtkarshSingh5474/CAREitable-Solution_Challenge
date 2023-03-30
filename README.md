@@ -33,6 +33,10 @@ CAREitable is a constantly evolving platform, and we are always looking for ways
 - More verified account systems where donors and receivers are well examined and verified by our system by Aadhar linking, NGO certificates.
 - Delivery service provided by us to eliminate the need to physically reach the donor, which raises privacy and safety concerns. It would also increase the range of our services to more and more people.
 - Smart Categories that will give more personalized fields to be filled by the donor according to the category. For example, for food items, fields like expiry date, type. Size and gender for clothes, etc.
+- Image Recognition: We can use machine learning to recognize the items that users are donating by analyzing the images uploaded by users. This can be done by using various image recognition APIs and libraries such as TensorFlow and Google Cloud Vision API. This can help in improving the accuracy of the donated item's category and description.
+- Personalized Recommendations: We can use machine learning to provide personalized recommendations to users based on their previous donation history. We can build a recommendation engine that analyzes user's previous donation history, their preferences, and other related factors to provide suggestions for items to donate.
+- Fraud Detection: Machine learning can be used to detect fraudulent donations by analyzing user behavior patterns and other data. By identifying and blocking fraudulent donations, we can ensure the transparency and authenticity of the platform.
+- Natural Language Processing: We can use Natural Language Processing (NLP) to understand the user's descriptions of donated items better. This can help in categorizing and sorting items more accurately, improving the search feature, and enhancing the overall user experience.
 
 ## How to Use
 To use CAREitable, follow these steps:
