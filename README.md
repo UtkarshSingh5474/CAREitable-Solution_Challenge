@@ -1,6 +1,6 @@
 # CAREitable - Charities & Donations
 
-[APK File](https://drive.google.com/drive/folders/1C66eSye0P5yny3NQtWW3cGwmhYEqFIyZ?usp=sharing)
+[APK File](https://github.com/UtkarshSingh5474/CAREitable-Solution_Challenge/blob/1.1/app-debug.apk)
 [Demonstration Video](https://youtu.be/B_6RAtDOm4U)
 
 
