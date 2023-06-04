@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.careitable">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,7 +21,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CAREitable">
         <activity
-            android:name=".DonationAdViewActivity"
+            android:name=".activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CharityViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CreateCharityOrganisationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DonationAdViewActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -31,50 +44,50 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
+
         <activity
-            android:name=".SplashScreenActivity"
-            android:exported="true"
+            android:name=".activity.SplashScreenActivity"
             android:configChanges="orientation"
+            android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
-            android:name=".UploadPhotoActivity"
+            android:name=".activity.UploadPhotoActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CreateDonationActivity"
+            android:name=".activity.CreateDonationActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activity.RegisterActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".EmailPasswordActivity"
+            android:name=".activity.EmailPasswordActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FirebaseUiActivity"
+            android:name=".activity.FirebaseUiActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ImageListActivity"
+            android:name=".activity.ImageListActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -82,8 +95,7 @@
             android:name=".MainActivity"
             android:configChanges="orientation"
             android:exported="true"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"

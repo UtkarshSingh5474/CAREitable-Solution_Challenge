@@ -19,7 +19,7 @@
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             android:background="@color/white"
-            android:id="@+id/image_list_layout"
+            android:id="@+id/organisationLogoImaveView"
             android:layout_gravity="center"
             />
 

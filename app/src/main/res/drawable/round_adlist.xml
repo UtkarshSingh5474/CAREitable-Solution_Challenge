@@ -4,11 +4,11 @@
 
 
     <corners
-        android:bottomLeftRadius="22dp"
-        android:bottomRightRadius="22dp"
-        android:radius="0.1dp" />
+        android:bottomLeftRadius="32dp"
+        android:bottomRightRadius="32dp"
+        android:radius="0.5dp" />
 
-    <solid android:color="@color/Primary" />
+    <solid android:color="@color/PrimaryLight" />
 
 
 

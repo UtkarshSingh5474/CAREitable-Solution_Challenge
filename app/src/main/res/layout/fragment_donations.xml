@@ -78,19 +78,36 @@
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addFloatingActionButton"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
-        app:backgroundTint="@color/Secondary"
-        app:fabSize="normal"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        android:orientation="vertical">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/chatWindowFloatingActionButton"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/CareRed"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_chat"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addFloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/PrimaryLight"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+    </LinearLayout>
+
+
+
 
 
 </RelativeLayout>

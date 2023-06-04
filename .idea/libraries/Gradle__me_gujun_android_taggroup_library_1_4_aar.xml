@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: me.gujun.android.taggroup:library:1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f59df13fe4c369e79886e5cd80ad821c/transformed/jetified-library-1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f59df13fe4c369e79886e5cd80ad821c/transformed/jetified-library-1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f59df13fe4c369e79886e5cd80ad821c/transformed/jetified-library-1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.gujun.android.taggroup/library/1.4/8c7c0dd13d6b317d8d8127bf0bdcd54a7f040a57/library-1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.gujun.android.taggroup/library/1.4/7ad265d3dd831b3f666aedc4d9f73fafbdc61392/library-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
