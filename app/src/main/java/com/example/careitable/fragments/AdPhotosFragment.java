@@ -27,16 +27,18 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.careitable.BuildConfig;
-import com.example.careitable.service.FileUtil;
-import com.example.careitable.dao.PhotoListObject;
-import com.example.careitable.adapter.PhotosAdapter;
+import com.example.careitable.FileUtil;
+import com.example.careitable.PhotoListObject;
+import com.example.careitable.PhotosAdapter;
 import com.example.careitable.R;
 import com.example.careitable.databinding.FragmentAdPhotosBinding;
+import com.example.careitable.databinding.FragmentCharityBinding;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Objects;
 
 import id.zelory.compressor.Compressor;
 
