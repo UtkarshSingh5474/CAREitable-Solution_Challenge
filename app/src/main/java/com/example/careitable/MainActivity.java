@@ -6,16 +6,15 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
+import android.location.LocationRequest;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.careitable.activity.LoginActivity;
 import com.example.careitable.databinding.ActivityMainBinding;
 import com.example.careitable.fragments.AccountFragment;
 import com.example.careitable.fragments.CharityFragment;
 import com.example.careitable.fragments.DonationsFragment;
-import com.example.careitable.service.CheckNetwork;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;

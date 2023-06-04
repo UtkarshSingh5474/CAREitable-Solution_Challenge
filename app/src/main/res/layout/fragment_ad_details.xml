@@ -29,7 +29,7 @@
 
 
             <LinearLayout
-                android:id="@+id/aboutCharityLL"
+                android:id="@+id/titleLL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/pageTitle"
@@ -45,7 +45,7 @@
                     android:src="@drawable/ic_title" />
 
                 <TextView
-                    android:id="@+id/aboutCharityTv"
+                    android:id="@+id/titleTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
@@ -61,7 +61,7 @@
                 android:id="@+id/titleCV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/aboutCharityLL"
+                android:layout_below="@id/titleLL"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="12dp"
@@ -83,7 +83,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <LinearLayout
-                android:id="@+id/sectorsLL"
+                android:id="@+id/descLL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/titleCV"
@@ -115,7 +115,7 @@
                 android:id="@+id/descCV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/sectorsLL"
+                android:layout_below="@id/descLL"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="12dp"

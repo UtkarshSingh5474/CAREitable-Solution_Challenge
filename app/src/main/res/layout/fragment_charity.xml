@@ -1,68 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/AdBackgroud"
     tools:context=".fragments.CharityFragment">
 
-
-    <ImageView
-        android:id="@+id/tvHead"
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="6dp"
-        android:src="@drawable/ic_logowithoutline" />
-
-
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:layout_below="@id/tvHead"
-        android:id="@+id/pullToRefresh"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/AdBackgroud"
-        >
-
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/charityListRecyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="visible"/>
-
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="15dp"
-        android:orientation="vertical">
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/chatWindowFloatingActionButton"
-            android:layout_marginBottom="12dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:backgroundTint="@color/CareRed"
-            app:fabSize="normal"
-            app:srcCompat="@drawable/ic_chat"/>
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/addFloatingActionButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:backgroundTint="@color/PrimaryLight"
-            app:fabSize="normal"
-            app:srcCompat="@android:drawable/ic_input_add" />
-
-    </LinearLayout>
-
+        android:text="Coming Soon...."
+        android:layout_centerInParent="true"
+        android:textSize="42sp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:maxLines="1"
+        android:ellipsize="end"/>
 
 </RelativeLayout>

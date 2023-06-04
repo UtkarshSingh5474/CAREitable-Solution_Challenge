@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.careitable">
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -21,16 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CAREitable">
         <activity
-            android:name=".activity.ChatActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.CharityViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.CreateCharityOrganisationActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.DonationAdViewActivity"
+            android:name=".DonationAdViewActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -44,50 +31,50 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-
         <activity
-            android:name=".activity.SplashScreenActivity"
-            android:configChanges="orientation"
+            android:name=".SplashScreenActivity"
             android:exported="true"
+            android:configChanges="orientation"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
-            android:name=".activity.UploadPhotoActivity"
+            android:name=".UploadPhotoActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.CreateDonationActivity"
+            android:name=".CreateDonationActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".LoginActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.RegisterActivity"
+            android:name=".RegisterActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.EmailPasswordActivity"
+            android:name=".EmailPasswordActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.FirebaseUiActivity"
+            android:name=".FirebaseUiActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ImageListActivity"
+            android:name=".ImageListActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -95,7 +82,8 @@
             android:name=".MainActivity"
             android:configChanges="orientation"
             android:exported="true"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait">
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

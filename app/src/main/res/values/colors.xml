@@ -12,10 +12,8 @@
     <color name="PrimaryLight">#85488A</color>
     <color name="Secondary">#5DD3BE</color>
     <color name="AdBackgroud">#EDF3F8</color>
-    <color name="CareRed">#fe5757</color>
-    <color name="CareRedLight">#FFEAEA</color>
+
     <color name="grey">#D3D3D3</color>
-    <color name="DarkGrey">#5A5A5A</color>
 
     <color name="cardSelected">#FFFFFF</color>
     <color name="cardUnselected">#D3D3D3</color>

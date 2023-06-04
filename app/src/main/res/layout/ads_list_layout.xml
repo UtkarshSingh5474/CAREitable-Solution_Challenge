@@ -55,7 +55,7 @@
                     android:layout_marginTop="-12dp"
                     android:layout_marginBottom="8dp"
                     android:foregroundGravity="center"
-                    app:cardBackgroundColor="@color/CareRedLight"
+                    app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
 
@@ -101,8 +101,7 @@
                     android:layout_marginTop="6dp"
                     android:ellipsize="marquee"
                     android:fontFamily="@font/comfortaa"
-                    android:maxLines="3"
-                    android:autoSizeTextType="uniform"
+                    android:maxLines="2"
                     android:text="Selling it for yoyo Honey Singh"
                     android:textColor="#ABB2B9"
                     android:textSize="16sp"
