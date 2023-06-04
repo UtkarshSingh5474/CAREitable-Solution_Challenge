@@ -38,13 +38,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.example.careitable.CheckNetwork;
-import com.example.careitable.CreateDonationActivity;
-import com.example.careitable.DonationAdsFetchObject;
-import com.example.careitable.DonationAdsListAdapter;
-import com.example.careitable.DonationAdsListObject;
-import com.example.careitable.R;
+import com.example.careitable.activity.ChatActivity;
 import com.example.careitable.databinding.FragmentDonationsBinding;
+import com.example.careitable.service.CheckNetwork;
+import com.example.careitable.activity.CreateDonationActivity;
+import com.example.careitable.dao.DonationAdsFetchObject;
+import com.example.careitable.adapter.DonationAdsListAdapter;
+import com.example.careitable.dao.DonationAdsListObject;
+import com.example.careitable.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -90,6 +91,11 @@ public class DonationsFragment extends Fragment implements LocationListener {
 
         pullToRefresh = binding.pullToRefresh;
 
+        //Default location
+        Toast.makeText(getContext(), "Default Location: Ghaziabad, Uttar Pradesh,India\nFor presentation purpose", Toast.LENGTH_SHORT).show();
+        cityName = "Ghaziabad";
+        stateName = "Uttar Pradesh";
+        binding.locationTv.setText(cityName + ", " + stateName);
         getAdsListByLocaiton(cityName,stateName);
 
 
@@ -103,6 +109,9 @@ public class DonationsFragment extends Fragment implements LocationListener {
             startActivity(new Intent(getContext(), CreateDonationActivity.class));
         });
 
+        binding.chatWindowFloatingActionButton.setOnClickListener(view1 -> {
+            startActivity(new Intent(getContext(), ChatActivity.class));
+        });
 
         return view;
     }
@@ -157,7 +166,7 @@ public class DonationsFragment extends Fragment implements LocationListener {
 
 
                             if (donationAdObject.isEmpty()){
-                               // binding.emptyTextView.setVisibility(View.VISIBLE);
+                                // binding.emptyTextView.setVisibility(View.VISIBLE);
                                 //binding.adListRecyclerView.setVisibility(View.GONE);
                             }
 
@@ -538,11 +547,14 @@ public class DonationsFragment extends Fragment implements LocationListener {
             List<Address> addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
 
             if(addresses.get(0).getCountryName()!="India"){
-                Toast.makeText(getContext(), "Only Indian Regions Allowed at This time", Toast.LENGTH_SHORT).show();
-                return;
+                Toast.makeText(getContext(), "Only Indian Regions Allowed at This time\nSetting Default Location", Toast.LENGTH_SHORT).show();
+                stateName="Uttar Pradesh";
+                cityName="Ghaziabad";
+
+            }else{
+                cityName = addresses.get(0).getLocality();
+                stateName = addresses.get(0).getAdminArea();
             }
-            cityName = addresses.get(0).getLocality();
-            stateName = addresses.get(0).getAdminArea();
 
             binding.locationTv.setText(cityName + ", " + stateName);
             getAdsListByLocaiton(cityName,stateName);

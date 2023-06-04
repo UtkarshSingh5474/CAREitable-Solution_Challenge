@@ -13,5 +13,5 @@
         android:layout_height="200dp"
         android:scaleType="centerCrop"
         android:background="@color/white"
-        android:id="@+id/image_list_layout"/>
+        android:id="@+id/organisationLogoImaveView"/>
 </LinearLayout>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#59757575"
     android:layout_margin="15dp"
-    tools:context=".UploadPhotoActivity">
+    tools:context=".activity.UploadPhotoActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"

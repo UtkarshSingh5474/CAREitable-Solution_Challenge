@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1031288213671",
+    "project_id": "careitable",
+    "storage_bucket": "careitable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031288213671:android:95dc713fa03b592b17cb82",
+        "android_client_info": {
+          "package_name": "com.example.careitable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031288213671-n0guqh0eqlc96g1336595pkd186r1k2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.careitable",
+            "certificate_hash": "e4dded6384948343a910a66f741fae1401634e40"
+          }
+        },
+        {
+          "client_id": "1031288213671-bfudrga5mh44p5ap5va3f8qhn2n0nim1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7kV6mTED2vwiBdipyI6IfdTekjYSU3Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031288213671-bfudrga5mh44p5ap5va3f8qhn2n0nim1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

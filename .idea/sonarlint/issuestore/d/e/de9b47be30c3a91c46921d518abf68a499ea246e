@@ -1,0 +1,51 @@
+
+k	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÌÚ²ùÿÿÿÿ
+o
+java:S1104"TMake edtTitle a static final constant or non-public and provide accessors if needed.(·ôýíýÿÿÿÿ
+n
+java:S1104"SMake edtDesc a static final constant or non-public and provide accessors if needed.(·ôýíýÿÿÿÿ
+t
+java:S1104 "YMake isNewCheckbox a static final constant or non-public and provide accessors if needed.(ÝÎ‘Ñÿÿÿÿÿ
+q
+java:S1104!"[Make selectedCardInt a static final constant or non-public and provide accessors if needed.(ïÙ†ú
+I
+java:S1444".Make this "public static edtTitle" field final(·ôýíýÿÿÿÿ
+H
+java:S1444"-Make this "public static edtDesc" field final(·ôýíýÿÿÿÿ
+N
+java:S1444 "3Make this "public static isNewCheckbox" field final(ÝÎ‘Ñÿÿÿÿÿ
+K
+java:S1444!"5Make this "public static selectedCardInt" field final(ïÙ†ú
+@
+java:S1659"%Declare "edtDesc" on a separate line.(·ôýíýÿÿÿÿ
+V	java:S125*"<This block of commented-out lines of code should be removed.(äÔÿùøÿÿÿÿ
+Q
+java:S26962"6Make the enclosing method "static" or remove this set.(„°ÀÙÿÿÿÿÿ
+L
+java:S26963"6Make the enclosing method "static" or remove this set.(ã¾åÇ
+L
+java:S26964"6Make the enclosing method "static" or remove this set.(çŠ
+G
+java:S16026",Remove useless curly braces around statement(¹¿ áøÿÿÿÿ
+B
+java:S16029",Remove useless curly braces around statement(é‹µ”
+B
+java:S1602<",Remove useless curly braces around statement(ùŠá…
+G
+java:S1602?",Remove useless curly braces around statement(¨Ó”Òþÿÿÿÿ
+G
+java:S1602B",Remove useless curly braces around statement(¹È‰áùÿÿÿÿ
+B
+java:S1602E",Remove useless curly braces around statement(Ñà†Ó
+B
+java:S1602H",Remove useless curly braces around statement(ô¯äÛ
+G
+java:S1602K",Remove useless curly braces around statement(Å ÛÂùÿÿÿÿ
+Q
+java:S2696T"6Make the enclosing method "static" or remove this set.(Éþøýüÿÿÿÿ
+Q
+java:S2696W"6Make the enclosing method "static" or remove this set.(­Ó²âùÿÿÿÿ
+Q
+java:S2696["6Make the enclosing method "static" or remove this set.(Éþøýüÿÿÿÿ
+<	java:S131`""Add a default case to this switch.(¼œóÛüÿÿÿÿ
+=	java:S131…""Add a default case to this switch.(¼œóÛüÿÿÿÿ
