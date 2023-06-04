@@ -54,11 +54,28 @@ public class ChatActivity extends AppCompatActivity {
     public static final MediaType JSON
             = MediaType.get("application/json; charset=utf-8");
     OkHttpClient client = new OkHttpClient();
+    String apikey = "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";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityChatBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        CollectionReference apikeyReg = db.collection("APIKeys");
+        apikeyReg.document("openai").get().addOnCompleteListener(task -> {
+            if (task.isSuccessful()) {
+                DocumentSnapshot document = task.getResult();
+                if (document.exists()) {
+                    apikey = document.getString("apikey");
+                    Log.d(TAG, "DocumentSnapshot data: " + apikey);
+                } else {
+                    Log.d(TAG, "No such document");
+                }
+            } else {
+                Log.d(TAG, "get failed with ", task.getException());
+            }
+        });
 
         messageList = new ArrayList<>();
 
@@ -157,6 +174,7 @@ public class ChatActivity extends AppCompatActivity {
         } });}else {
             messageList.add(new Message("Typing... ",Message.SENT_BY_BOT));
             sendAndFetchResponse(systemPrompt.get(),question);
+            Log.d(TAG, "hiTest: "+systemPrompt.get()+" "+question);
         }
     }
 
@@ -169,7 +187,7 @@ public class ChatActivity extends AppCompatActivity {
             JSONArray messagesArray = new JSONArray();
             JSONObject messageObj = new JSONObject();
             messageObj.put("role", "system");
-            messageObj.put("content", systemPrompt);
+            messageObj.put("content", systemPrompt+"");
             messagesArray.put(messageObj);
             messageObj = new JSONObject();
             messageObj.put("role", "user");
@@ -191,7 +209,7 @@ public class ChatActivity extends AppCompatActivity {
         Log.d(TAG, "callAPI: "+body.toString());
         Request request = new Request.Builder()
                 .url("https://api.openai.com/v1/chat/completions")
-                .header("Authorization","Bearer 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")
+                .header("Authorization","Bearer "+apikey)
                 .post(body)
                 .build();
 
