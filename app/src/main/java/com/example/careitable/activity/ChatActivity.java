@@ -54,7 +54,7 @@ public class ChatActivity extends AppCompatActivity {
     public static final MediaType JSON
             = MediaType.get("application/json; charset=utf-8");
     OkHttpClient client = new OkHttpClient();
-    String apikey = "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";
+    String apikey = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -216,7 +216,7 @@ public class ChatActivity extends AppCompatActivity {
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(@NonNull Call call, @NonNull IOException e) {
-                addResponse("Failed to load response due to "+e.getMessage());
+                addResponse("Failed to load response due to API KEY ISSUE or "+e.getMessage());
             }
 
             @Override
